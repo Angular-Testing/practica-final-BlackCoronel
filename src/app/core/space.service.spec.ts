@@ -6,7 +6,7 @@ import {
 import { TestBed } from '@angular/core/testing';
 import {SpaceService} from './space.service';
 
-fdescribe('GIVEN the ProjectsService isolated from remote server', () => {
+fdescribe('GIVEN the SpaceService isolated from remote server', () => {
   let service: SpaceService;
   let controller: HttpTestingController;
   let inputBaseUrl: string;
