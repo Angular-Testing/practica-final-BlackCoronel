@@ -39,6 +39,7 @@ fdescribe('GIVEN the SearchComponent form', () => {
             providers: [{provide: SpaceService, useValue: spaceServiceSpy}],
             schemas: [CUSTOM_ELEMENTS_SCHEMA]
         }).compileComponents();
+
     });
 
     beforeEach(() => {
