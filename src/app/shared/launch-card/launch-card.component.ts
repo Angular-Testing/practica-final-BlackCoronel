@@ -18,7 +18,7 @@ import { Launch } from 'src/app/models/launch';
       <ab-location [launch]="launch"></ab-location>
       <ab-mission [launch]="launch"></ab-mission>
       <ab-service-provider [launch]="launch"></ab-service-provider>
-      <button *ngIf="allowAddToFavorites" (click)="onClicAddToFavorites()">
+      <button *ngIf="allowAddToFavorites" (click)="onClicAddToFavorites()" data-testid="favorites">
         Add to favorites 🤍
       </button>
       <button *ngIf="allowRemoveFromFavorites" (click)="onClicRemoveFromFavorites()">
